@@ -7,6 +7,9 @@
     <title>Персональное Портфолио</title>
 
     <link rel="stylesheet" href="css/style.css">
+
+    <!-- box icons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
 
 <body>
@@ -15,15 +18,38 @@
      <header class="header">
         <a href="#" class="logo">Кирилл</a>
 
+        <div class="bx bx-menu" id="menu-icon"></div>
+
         <nav class="navbar">
-            <a href="#home">Главная</a>
+            <a href="#home" class="active">Главная</a>
             <a href="#about">Обо Мне</a>
             <a href="#education">Проекты</a>
             <a href="#skills">Скилл</a>
             <a href="#contact">Контакты</a>
         </nav>
      </header>
-    
+
+     <!-- home section design -->
+    <section class="home" id="home">
+        <div class="home-content">
+            <h1>Привет, Я <span>Кирилл Хощанов</span></h1>
+            <div class="text-animate">
+                <h3>Frontend Developer</h3>
+            </div> 
+            <p>Я начинающий Веб программист и это мои первые шаги в этой сфере. Не судите строго я только учусь.
+                I am a beginner Web programmer and these are my first steps in this field. Don't judge strictly, I'm just learning.
+            </p>
+            <div class="btn-box">
+                <a href="#" class="btn">Заказать</a>
+                <a href="#" class="btn">Связаться</a>
+            </div>
+        </div>
+        <div class="home-sci">
+            <a href="#"><i class='bx bxl-facebook'></i></a>
+            <a href="#"><i class='bx bxl-twitter'></i></a>
+            <a href="#"><i class='bx bxl-instagram'></i></a>
+        </div>
+    </section>
 
     <script src="js/script.js"></script>
 </body>
